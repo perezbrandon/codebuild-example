@@ -25,6 +25,7 @@ phases:
                   php7.1-opcache \
                   php7.1-xdebug \
                   php7.1-dom \
+                  php7.1-mbstring \
                   php-xdebug \
                   php7.1-curl \
                   unzip
