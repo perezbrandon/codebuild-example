@@ -30,6 +30,7 @@ phases:
                   php7.1-curl \
                   unzip
 
+         phpenmod xml
          #Enable xdebug - phpunit uses this for code coverage
          phpenmod xdebug
 
