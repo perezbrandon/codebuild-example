@@ -11,10 +11,9 @@ phases:
      - php -v
      - echo "installing composer"
      - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
-
-     # Start Mysql if you need it
-     # - apt-get install -y mysql-server
-     # - su mysql -s /bin/bash -c "/usr/sbin/mysqld" &
+     # install mysql
+     - apt-get install -y mysql-server
+     - su mysql -s /bin/bash -c "/usr/sbin/mysqld" &
  build:
    commands:
      - echo Build started on `date`
