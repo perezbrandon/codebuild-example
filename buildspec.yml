@@ -4,7 +4,7 @@ phases:
    commands:
      - apt list --installed
      - apt-get update
-     - apt-get install php7
+     - apt-get install php7.1
      - echo "installing composer"
      - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 
