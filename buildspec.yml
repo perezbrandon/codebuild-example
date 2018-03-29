@@ -3,7 +3,7 @@ phases:
  install:
    commands:
      - |
-         export DEBIAN_FRONTEND=noninteractive
+         # export DEBIAN_FRONTEND=noninteractive
 
          #Install php7.1
          apt-get update
@@ -36,14 +36,14 @@ phases:
          #          php7.1-intl \
          #          php7.1-xsl \
          #          unzip
-         #
+
          # phpenmod xml
          #Enable xdebug - phpunit uses this for code coverage
-         phpenmod xdebug
+         # phpenmod xdebug
 
          # php --ini
          # ls /etc/php/
-         # ls /etc/php/7.1/
+         # ls /etc/php/7.1
          #Install composer
          # php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
          # php composer-setup.php ;
