@@ -42,7 +42,8 @@ phases:
          phpenmod xdebug
 
          php --ini
-         ls /etc/php/7.2/cli/
+         ls /etc/php/
+         ls /etc/php/7.1/
          #Install composer
          # php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
          # php composer-setup.php ;
