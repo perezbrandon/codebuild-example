@@ -29,6 +29,7 @@ phases:
                   php7.1-xdebug \
                   php7.1-dom \
                   php7.1-mbstring \
+                  php7.2-mbstring \
                   php-xdebug \
                   php7.1-curl \
                   php7.1-gd \
@@ -41,6 +42,7 @@ phases:
          phpenmod xdebug
 
          php --ini
+         ls /etc/php/7.2/cli/
          #Install composer
          # php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
          # php composer-setup.php ;
