@@ -6,7 +6,7 @@ phases:
      - apt-get install -y  software-properties-common
      - add-apt-repository -y ppa:ondrej/php
      - apt-get update -y
-     - apt-get install php7.1
+     - apt-get install -y php7.1
      - php -v
      - echo "installing composer"
      - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
