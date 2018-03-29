@@ -2,7 +2,7 @@ version: 0.2
 phases:
  install:
    commands:
-     - apt list --intalled
+     - apt list --installed
      - apt-get update
      - echo "installing composer"
      - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
