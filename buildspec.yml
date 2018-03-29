@@ -3,6 +3,7 @@ phases:
  install:
    commands:
      - echo "installing composer"
+     - apt-get update
      - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 
      # Start Mysql if you need it
